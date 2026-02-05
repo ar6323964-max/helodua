@@ -55,11 +55,11 @@
         .photo-card.revealed { transform: scale(1.1) rotate(0deg) !important; z-index: 10; border: 2px solid #ff4d6d; }
         .photo-card.revealed img { filter: grayscale(0%) brightness(100%); }
         .photo-card .caption { 
-            font-size: 1.1rem; 
-            margin-top: 8px; 
-            color: #ff4d6d; 
-            opacity: 0; 
-            transition: opacity 0.4s;
+             font-size: 1.1rem; 
+             margin-top: 8px; 
+             color: #ff4d6d; 
+             opacity: 0; 
+             transition: opacity 0.4s;
         }
         .photo-card.revealed .caption { opacity: 1; }
 
@@ -118,7 +118,7 @@
         
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
             <div class="photo-card" onclick="revealPhoto(this)" style="transform: rotate(-3deg);">
-                <img src="https://instagram.fkhi28-1.fna.fbcdn.net/v/t1.15752-9/613319236_2159023061300079_4356667306878239510_n.jpg?_nc_cat=108&ccb=7-5&_nc_sid=0024fc&_nc_ohc=bMKhH8FeZq4Q7kNvwEOmzCn&_nc_oc=Adk2BVfWE_lx3a7JK6_Z32CVJYaPyS4ZZTbNliPO8nKocxLJ12qKiyvLAgNK8n2v_tc&_nc_zt=23&_nc_ht=instagram.fkhi28-1.fna&oh=03_Q7cD4gEknp__Hfq8KSxTEbn_SDISN2CTfXW3eLXy-qdRU1Yqxw&oe=69AB4E28>
+                <img src="https://instagram.fkhi28-1.fna.fbcdn.net/v/t1.15752-9/613319236_2159023061300079_4356667306878239510_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=108&ccb=7-5&_nc_sid=0024fc&_nc_ohc=bMKhH8FeZq4Q7kNvwEOmzCn&_nc_oc=Adk2BVfWE_lx3a7JK6_Z32CVJYaPyS4ZZTbNliPO8nKocxLJ12qKiyvLAgNK8n2v_tc&_nc_zt=23&_nc_ht=instagram.fkhi28-1.fna&oh=03_Q7cD4gH66xf_xpDGYwYrzCHxZTW9KEOyuiVcCpmZ5Dd5QlGttg&oe=69AB4E28">
                 <p class="handwritten caption">BHONDUU! 🥧</p>
             </div>
             <div class="photo-card" onclick="revealPhoto(this)" style="transform: rotate(2deg);">
